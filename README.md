@@ -57,4 +57,4 @@
 ## 🎨 カスタマイズ方法
 
 ### BGM変更
-<audio id="bgm" src="fantasy_music.mp3" loop></audio>
+- `<audio id="bgm" src="fantasy_music.mp3" loop></audio>`
