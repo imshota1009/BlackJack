@@ -53,30 +53,3 @@ G, E, D (ゴブリン, エルフ, ドラゴン): すべて10点
 本リポジトリをクローンまたはZIPでダウンロード
 
 fantasy_blackjack.html をブラウザで開くだけでプレイ開始
-
-🎵 BGMと背景画像について
-
-以下のファイルが fantasy_blackjack.html と同じフォルダに必要です。
-
-BGMファイル: fantasy_music.mp3
-
-背景画像ファイル: fantasy_background.jpg
-
-お好きな音楽・画像を使う場合は、同じファイル名にリネームして配置してください。
-
-🎨 カスタマイズ方法
-BGMを変更する場合
-<!-- <body> タグ直後 -->
-<audio id="bgm" src="fantasy_music.mp3" loop></audio>
-
-
-src="fantasy_music.mp3" をお好きな音楽ファイル名に変更
-
-背景画像を変更する場合
-/* <style> 内 */
-body {
-    background-image: url('fantasy_background.jpg');
-}
-
-
-url('fantasy_background.jpg') をお好きな画像ファイル名に変更
