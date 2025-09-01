@@ -1,14 +1,22 @@
 # 🃏✨ ファンタジー・ブラックジャック (Fantasy Blackjack)
 
 > **「勇者よ、カードで運命を切り開け！」**  
-> ファンタジーの世界観で楽しむシンプルなブラックジャックゲーム。  
+> ファンタジーの世界観で楽しむシンプルなブラックジャックゲーム  
 
-ここから遊べます⇒https://imshota1009.github.io/BlackJack/
+👉 [ここから遊べます](https://imshota1009.github.io/BlackJack/)
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
 
 ---
 
 ## 🎮 ゲーム概要
-- ブラウザでそのまま遊べるシンプルなカードゲーム  
+- ブラウザですぐ遊べるシンプルなカードゲーム  
 - HTML / CSS / JavaScript のみで構築  
 - 勇者（プレイヤー）となり、ディーラーに挑戦！  
 
@@ -34,7 +42,7 @@
   - ✋ **スタンド (Stand)**：その手札で勝負  
 - **ディーラーのルール**：合計が17以上になるまでカードを引き続ける  
 
-👉 **21を超えずにより近い方が勝利！**  
+👉 **21を超えずにより近い方が勝利！**
 
 ---
 
@@ -49,13 +57,14 @@
 同じフォルダに以下のファイルを置いてください：  
 
 - `fantasy_music.mp3`（BGM）  
-- `fantasy_background.jpg`（背景）  
+- `fantasy_background.jpg`（背景画像）  
 
-※ 好きな音楽や画像を使いたい場合はファイル名を合わせるか、設定を編集してください。  
+※ 好きな音楽や画像を使いたい場合はファイル名を合わせるか、ソースコードを編集してください。  
 
 ---
 
 ## 🎨 カスタマイズ方法
 
-### BGM変更
-- `<audio id="bgm" src="fantasy_music.mp3" loop></audio>`
+### 🔊 BGM変更
+```html
+<audio id="bgm" src="fantasy_music.mp3" loop></audio>
